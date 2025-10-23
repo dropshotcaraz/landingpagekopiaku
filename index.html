@@ -132,49 +132,61 @@
 
     <!-- Menu Section -->
     <!-- Increased padding. Background is now inherited from body (gray-100) -->
-    <section id="menu" class="py-20 md:py-28">
+    <section id="menu" class="py-16 md:py-24">
         <div class="container mx-auto px-6">
-            <div class="text-center mb-16">
+            <div class="text-center mb-12">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#2a1bed]">Menu Andalan Kami</h2>
-                <p class="mt-4 text-lg text-gray-600 leading-relaxed">Diseduh dengan passion, disajikan untuk Anda.</p>
+                <p class="mt-4 text-lg text-gray-600">Diseduh dengan passion, disajikan untuk Anda.</p>
             </div>
             
-            <!-- Added rounded-lg to the receipt -->
-            <div class="receipt-container mx-auto rounded-lg">
-                <div class="text-center mb-4">
-                    <h3 class="text-2xl font-bold">KOPI AKU MENU</h3>
-                    <p class="text-sm italic mt-1">(Y)our Best Shot</p>
-                </div>
-                <div class="text-center text-gray-500 my-4 text-sm tracking-widest">******************************</div>
-                <ul class="space-y-3 text-sm"> <!-- Increased space-y -->
-                    <li class="font-bold text-base">REFRESHMENT DRINK</li> <!-- Slightly larger heading -->
-                    <li class="flex justify-between"><span>Espresso</span> <span>8K</span></li>
-                    <li class="flex justify-between"><span>Americano</span> <span>12K</span></li>
-                    <li class="flex justify-between"><span>American Green Apple</span> <span>17K</span></li>
-                    <li class="flex justify-between"><span>American Lemonade</span> <span>17K</span></li>
-                    <li class="flex justify-between"><span>Lychee Bliss</span> <span>18K</span></li>
-                    <li class="flex justify-between"><span>Sweet Berries</span> <span>18K</span></li>
+            <div class="max-w-lg mx-auto bg-white p-8 md:p-12 rounded-xl shadow-lg">
+                <h3 class="menu-title text-6xl md:text-7xl font-bold text-[#2a1bed] text-center mb-10">MENU</h3>
 
-                    <li class="font-bold pt-3 text-base">CAFE LATTE</li> <!-- Increased pt and size -->
-                    <li class="flex justify-between"><span>Hazelnut Latte</span> <span>16K</span></li>
-                    <li class="flex justify-between"><span>Salted Caramel Latte</span> <span>16K</span></li>
-                    <li class="flex justify-between"><span>Vanilla Latte</span> <span>16K</span></li>
-                    <li class="flex justify-between"><span>Aren Latte</span> <span>16K</span></li>
-                    <li class="flex justify-between"><span>Latte</span> <span>15K</span></li>
+                <div class="space-y-8">
+                    <div>
+                        <h4 class="text-xl font-bold text-[#2a1bed] tracking-wider border-b-2 border-[#2a1bed] pb-2 mb-4">REFRESHMENT DRINK</h4>
+                        <ul class="divide-y divide-dashed divide-blue-200 text-lg text-gray-700">
+                            <li class="flex justify-between py-3"><span>Espresso</span> <span class="font-semibold">8.000</span></li>
+                            <li class="flex justify-between py-3"><span>Americano</span> <span class="font-semibold">12.000</span></li>
+                            <li class="flex justify-between py-3"><span>American Green Apple</span> <span class="font-semibold">17.000</span></li>
+                            <li class="flex justify-between py-3"><span>American Lemonade</span> <span class="font-semibold">17.000</span></li>
+                            <li class="flex justify-between py-3"><span>Lychee Bliss</span> <span class="font-semibold">18.000</span></li>
+                            <li class="flex justify-between py-3"><span>Sweet Berries</span> <span class="font-semibold">18.000</span></li>
+                        </ul>
+                    </div>
+    
+                    <div>
+                        <h4 class="text-xl font-bold text-[#2a1bed] tracking-wider border-b-2 border-[#2a1bed] pb-2 mb-4">CAFE LATTE</h4>
+                        <ul class="divide-y divide-dashed divide-blue-200 text-lg text-gray-700">
+                            <li class="flex justify-between py-3"><span>Hazelnut Latte</span> <span class="font-semibold">16.000</span></li>
+                            <li class="flex justify-between py-3"><span>Salted Caramel Latte</span> <span class="font-semibold">16.000</span></li>
+                            <li class="flex justify-between py-3"><span>Vanilla Latte</span> <span class="font-semibold">16.000</span></li>
+                            <li class="flex justify-between py-3"><span>Aren Latte</span> <span class="font-semibold">16.000</span></li>
+                            <li class="flex justify-between py-3"><span>Latte</span> <span class="font-semibold">15.000</span></li>
+                        </ul>
+                    </div>
+    
+                    <div>
+                        <h4 class="text-xl font-bold text-[#2a1bed] tracking-wider border-b-2 border-[#2a1bed] pb-2 mb-4">MANUAL BREW</h4>
+                        <ul class="divide-y divide-dashed divide-blue-200 text-lg text-gray-700">
+                            <li class="flex justify-between py-3"><span>V60/Japanese</span> <span class="font-semibold">20.000</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                    <li class="font-bold pt-3 text-base">MANUAL BREW</li> <!-- Increased pt and size -->
-                    <li class="flex justify-between"><span>V60/Japanese</span> <span>20K</span></li>
-                </ul>
-                <div class="text-center text-gray-500 my-4 text-sm tracking-widest">******************************</div>
-                <div class="text-center font-bold mt-6">
-                    <p>THANK YOU FOR VISITING!</p>
-                </div>
-                <!-- Barcode -->
-                <div class="mt-4">
-                    <svg class="w-full" height="60" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60">
-                        <path fill="#000" d="M0 0h2v60H0zm4 0h2v60H4zm4 0h4v60H8zm6 0h2v60h-2zm4 0h2v60h-2zm4 0h2v60h-2zm2 0h2v60h-2zm4 0h4v60h-4zm6 0h2v60h-2zm4 0h2v60h-2zm4 0h4v60h-4zm6 0h2v60h-2zm4 0h2v60h-2zm2 0h2v60h-2zm4 0h2v60h-2zm4 0h4v60h-4zm4 0h2v60h-2zm4 0h4v60h-4zm6 0h2v60h-2zm4 0h2v60h-2zm4 0h2v60h-2zm2 0h2v60h-2zm4 0h4v60h-4zm6 0h2v60h-2zm4 0h2v60h-2zm4 0h4v60h-4zm6 0h2v60h-2zm4 0h2v60h-2zm2 0h2v60h-2zm4 0h2v60h-2zm4 0h4v60h-4zm4 0h2v60h-2zm4 0h4v60h-4zm6 0h2v60h-2zm4 0h2v60h-2zm4 0h2v60h-2zm2 0h2v60h-2zm4 0h4v60h-4zm6 0h2v60h-2zm4 0h2v60h-2zm4 0h4v60h-4zm6 0h2v60h-2zm4 0h2v60h-2zm2 0h2v60h-2zm4 0h2v60h-2zm4 0h4v60h-4z"/>
-                    </svg>
-                </div>
+    <!-- Konten Promosi Section -->\
+     <section id="promosi" class="py-16 md:py-24">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-[#2a1bed] mb-8">Promosi Spesial Untukmu!</h2>
+            <div class="max-w-2xl mx-auto bg-white p-8 rounded-xl shadow-lg border-2 border-dashed border-[#2a1bed] hover:shadow-2xl transition-shadow duration-300">
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">SENIN SEMANGAT!</h3>
+                <p class="text-lg text-gray-600 mb-6">
+                    Setiap hari Senin, beli 2 Es Kopi Susu Aren favoritmu dan dapatkan <span class="font-bold text-[#2a1bed]">GRATIS 1 Americano</span>.
+                </p>
+                <p class="text-sm text-gray-500">*Cukup tunjukkan halaman ini ke barista kami.</p>
             </div>
         </div>
     </section>
